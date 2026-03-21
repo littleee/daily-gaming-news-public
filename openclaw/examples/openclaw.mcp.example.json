@@ -1,0 +1,19 @@
+{
+  "plugins": {
+    "entries": {
+      "acpx": {
+        "enabled": true,
+        "config": {
+          "mcpServers": {
+            "daily-gaming-news": {
+              "command": "/path/to/daily_gaming_news/.venv/bin/python",
+              "args": [
+                "/path/to/daily_gaming_news/scripts/daily_news_mcp_server.py"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

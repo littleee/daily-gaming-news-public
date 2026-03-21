@@ -1,0 +1,64 @@
+{
+  "date": "2026-03-22",
+  "timezone": "Asia/Shanghai",
+  "topic": "daily-gaming-news",
+  "source_job_id": "manual-20260322",
+  "generated_at": "2026-03-22T04:20:00+08:00",
+  "count": 6,
+  "items": [
+    {
+      "rank": 1,
+      "title": "《红色沙漠》又遭批评 隐瞒使用AI创作画作",
+      "summary": "《红色沙漠》发售仅24小时销量突破200万套，但争议不断。玩家在游戏中发现AI生成的美术画作，包括马腿畸形的插图和疑似AI生成的棋盘小丑。粉丝批评开发商Pearl Abyss隐瞒AI使用情况，引发新一轮争议。",
+      "url": "https://www.3dmgame.com/news/202603/3940270.html",
+      "source": "3DM",
+      "language": "zh-CN",
+      "tags": ["PS5", "Xbox", "Steam"]
+    },
+    {
+      "rank": 2,
+      "title": "《杀戮尖塔2》大型补丁引发玩家强烈不满 一天暴增1万差评",
+      "summary": "好评卡牌游戏《杀戮尖塔2》3月20日发布首个大型补丁，因调整无限连击玩法导致平衡性变化，一天内暴增近1万条差评。官方表示注意到这一显著变化，推测是难度调整引发玩家不满，其中大部分差评来自中文用户。",
+      "url": "https://www.3dmgame.com/news/202603/3940265.html",
+      "source": "3DM",
+      "language": "zh-CN",
+      "tags": ["Steam", "游戏更新"]
+    },
+    {
+      "rank": 3,
+      "title": "任天堂正为欧洲市场准备可更换电池的NS2主机",
+      "summary": "据日经新闻报道，任天堂将为欧洲市场推出Switch 2修订版本，配备用户可自行更换的电池，以符合欧盟维修权法规。Switch 2自2025年6月首发以来销量已突破1737万台，成为美国史上销售最快的游戏硬件。",
+      "url": "https://www.3dmgame.com/news/202603/3940259.html",
+      "source": "3DM",
+      "language": "zh-CN",
+      "tags": ["Switch 2", "任天堂"]
+    },
+    {
+      "rank": 4,
+      "title": "《极限竞速：地平线6》新系统情报 车辆改装细节公开",
+      "summary": "Playground Games公布《极限竞速：地平线6》车辆改装细节，首发将包含550多辆汽车。玩家可自定义Forza Aero空气动力系统、设计赛车贴纸，甚至为轻型汽车搭载摩托发动机。本作将于5月19日登陆Xbox和PC，PS5版下半年发售。",
+      "url": "https://www.3dmgame.com/news/202603/3940246.html",
+      "source": "3DM",
+      "language": "zh-CN",
+      "tags": ["Xbox", "PS5", "Steam"]
+    },
+    {
+      "rank": 5,
+      "title": "黄仁勋针对DLSS 5的表述似乎与自家员工的说法矛盾",
+      "summary": "英伟达DLSS 5技术发布后引发争议，CEO黄仁勋称该技术\"不是针对单帧画面的后处理\"，而是基于几何层面的神经渲染。但英伟达自家员工却表示DLSS 5\"以2D帧画面加运动矢量作为输入\"，两者说法明显矛盾，引发网友质疑。",
+      "url": "https://www.3dmgame.com/news/202603/3940263.html",
+      "source": "3DM",
+      "language": "zh-CN",
+      "tags": ["PC"]
+    },
+    {
+      "rank": 6,
+      "title": "Double Fine新作《Kiln》上市日期现已正式确定",
+      "summary": "曾开发《脑航员》系列的Double Fine正式公布新作《Kiln》将于4月23日发售，登陆Xbox、PS5和Steam平台，首发加入XGP。这是一款陶艺主题的多人在线派对乱斗游戏，玩家捏制的陶器将化为战斗角色，造型直接影响属性与玩法。",
+      "url": "https://www.3dmgame.com/news/202603/3940261.html",
+      "source": "3DM",
+      "language": "zh-CN",
+      "tags": ["Xbox", "PS5", "Steam"]
+    }
+  ]
+}

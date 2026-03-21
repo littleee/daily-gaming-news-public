@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+artifacts/runs/
+artifacts/preview_*.html
+artifacts/payload_from_news_fulltext*.json
+artifacts/preview_payload_from_news.json
+artifacts/wechat_payload*.json
+artifacts/rendered_article.html
+artifacts/mcp_*
+news/latest.json

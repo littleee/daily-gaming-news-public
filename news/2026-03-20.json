@@ -1,0 +1,64 @@
+{
+  "date": "2026-03-20",
+  "timezone": "Asia/Shanghai",
+  "topic": "daily-gaming-news",
+  "source_job_id": "test-run-2026-03-20",
+  "generated_at": "2026-03-20T04:51:30+08:00",
+  "count": 6,
+  "items": [
+    {
+      "rank": 1,
+      "title": "《艾恩葛朗特 回荡新声》两分钟实机宣传片",
+      "summary": "万代公布了《刀剑神域》系列新作的两分钟实机宣传片，游戏将于7月9日发售，登陆PC Steam、PS5和Xbox Series平台。",
+      "url": "https://www.3dmgame.com/news/202603/3940125.html",
+      "source": "3DM",
+      "language": "zh-CN",
+      "tags": ["Steam", "PS5", "Xbox"]
+    },
+    {
+      "rank": 2,
+      "title": "《匹诺曹的谎言》全球销量已超400万套",
+      "summary": "《匹诺曹的谎言》全球销量突破400万套，该作登陆PS5、Xbox Series、PC等平台。",
+      "url": "https://www.3dmgame.com/news/202603/3940124.html",
+      "source": "3DM",
+      "language": "zh-CN",
+      "tags": ["PS5", "Xbox", "Steam"]
+    },
+    {
+      "rank": 3,
+      "title": "《重建你的岛屿》4月9日正式推出",
+      "summary": "休闲风海岛探索经营游戏《重建你的岛屿》将于4月9日登陆Steam，玩家需要治愈岛屿、重建栖息地。",
+      "url": "https://www.3dmgame.com/news/202603/3940118.html",
+      "source": "3DM",
+      "language": "zh-CN",
+      "tags": ["Steam", "新游发售"]
+    },
+    {
+      "rank": 4,
+      "title": "《红色沙漠》帧数暴跌场景引热议",
+      "summary": "数毛社在PS5 Pro技术预览中发现，《红色沙漠》的\"虫灾山\"场景即使在性能模式下也会出现帧率下降，最差跌至30多帧。",
+      "url": "https://www.3dmgame.com/news/202603/3940109.html",
+      "source": "3DM",
+      "language": "zh-CN",
+      "tags": ["PS5 Pro", "主机性能"]
+    },
+    {
+      "rank": 5,
+      "title": "《立方救赎》Steam上线好评率仅20%",
+      "summary": "免费末日动作游戏《立方救赎》近日登陆Steam，但因严重的网络连接问题导致好评率仅20%，开发商已发布修复更新。",
+      "url": "https://www.3dmgame.com/news/202603/3940106.html",
+      "source": "3DM",
+      "language": "zh-CN",
+      "tags": ["Steam", "新游发售"]
+    },
+    {
+      "rank": 6,
+      "title": "日立为Switch2推出语音工具",
+      "summary": "日立推出Switch2专用语音命令识别软件\"Ruby Spotter Advanced\"，支持玩家用自创语音指令操控游戏，兼容超过40种语言。",
+      "url": "https://www.3dmgame.com/news/202603/3940101.html",
+      "source": "3DM",
+      "language": "zh-CN",
+      "tags": ["Switch 2", "硬件"]
+    }
+  ]
+}

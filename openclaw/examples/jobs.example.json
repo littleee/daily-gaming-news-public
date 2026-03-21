@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "jobs": [
+    {
+      "id": "79d49805-196f-4c7d-ba8f-d54ff9ecce74",
+      "name": "daily-gaming-news",
+      "description": "每日18:00采集3DM新闻、生成公众号草稿产物，并同步飞书结果",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 18 * * *",
+        "tz": "Asia/Shanghai"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "使用 3dm-gaming-news 和 daily-gaming-news-pipeline 完成每日游戏资讯流水线。先抓取当天 6 条 3DM 新闻并写入 news/YYYY-MM-DD.json 与 news/latest.json，再运行 run_daily_news_pipeline.py 生成 payload 与 HTML；如果环境变量 WECHAT_APPID 与 WECHAT_APPSECRET 齐全，则继续推送草稿箱。推送脚本会自动选择正文首图作为封面图，并自动把 webp 图片转换成 jpg。最后把新闻标题、文件路径、media_id（如有）发送到飞书。"
+      },
+      "delivery": {
+        "mode": "announce",
+        "channel": "feishu",
+        "to": "your_channel_id"
+      }
+    }
+  ]
+}

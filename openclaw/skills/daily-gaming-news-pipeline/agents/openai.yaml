@@ -1,0 +1,7 @@
+---
+interface:
+  display_name: "Daily Gaming News Pipeline"
+  short_description: "Build and optionally push the TGDOG WeChat daily news draft"
+  default_prompt: "Use $daily-gaming-news-pipeline to turn daily_gaming_news/news/latest.json into a TGDOG-style WeChat article, save artifacts, and optionally push a draft."
+policy:
+  allow_implicit_invocation: true

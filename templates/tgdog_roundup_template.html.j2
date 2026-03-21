@@ -1,0 +1,77 @@
+{% macro story_label(text) -%}
+<section style="margin-right: auto; margin-left: auto; padding: 8px 25px; background: url('https://mmbiz.qpic.cn/mmbiz_gif/DRPKCGMAPjKcgfL9NwgUdJCyVG7h8j4onE0P0pib970hZiaa0YgYZiam4IWjjMpVoa5obv2UkXwgae367eb8LM2eA/640?wx_fmt=gif') center bottom / cover no-repeat rgb(248, 202, 109); color: rgb(112, 65, 17); display: inline-block; border-radius: 4px; line-height: 1.75em;">
+  <span style="font-size: 14px; font-weight: bold;">{{ text }}</span>
+</section>
+{%- endmacro %}
+
+{% macro paragraph(text) -%}
+<p style='margin: 10px auto; font-size: 15px; line-height: 30px; color: rgb(51, 51, 51); font-family: "Microsoft YaHei", "PingFang SC", Arial, sans-serif; text-indent: 2em;'>
+  <span style="font-size: 14px;">{{ text }}</span>
+</p>
+{%- endmacro %}
+
+{% if intro_paragraphs %}
+<section style="margin-bottom: 0px;">
+  <section style="padding-top: 8px; padding-bottom: 8px;">
+    {% for text in intro_paragraphs %}
+    {{ paragraph(text) }}
+    {% endfor %}
+  </section>
+</section>
+{% endif %}
+
+{% if body_html %}
+<section style="margin-bottom: 0px;">
+  <section style="padding-top: 8px; padding-bottom: 8px;">
+    {{ body_html | safe }}
+  </section>
+</section>
+{% else %}
+  {% for section in sections %}
+  <section style="margin-bottom: 0px;">
+    <section style="padding-top: 25px; padding-bottom: 15px; text-align: center;">
+      {{ story_label(section.heading) }}
+    </section>
+  </section>
+  {% for text in section.paragraphs %}
+  {{ paragraph(text) }}
+  {% endfor %}
+  {% if section.image %}
+  <section style="text-align: center; margin: 10px auto;">
+    <img src="{{ section.image }}" style="width:100%; max-width:100%;" />
+  </section>
+  {% endif %}
+  {% if section.gallery %}
+    {% for image_url in section.gallery %}
+    <section style="text-align: center; margin: 10px auto;">
+      <img src="{{ image_url }}" style="width:100%; max-width:100%;" />
+    </section>
+    {% endfor %}
+  {% endif %}
+  {% endfor %}
+{% endif %}
+
+{% if closing_paragraphs %}
+  {% for text in closing_paragraphs %}
+  {{ paragraph(text) }}
+  {% endfor %}
+{% endif %}
+
+{% if footer_note %}
+<section>
+  <p><span><br/></span></p>
+  <section style="letter-spacing: 0.544px; margin-right: 16px; margin-left: 16px; text-align: center; line-height: 2em;">
+    <section style="margin-top: -10px; padding-bottom: 4px; padding-left: 5px; font-size: 16px; letter-spacing: 2px; color: rgb(63, 63, 63); display: inline-block; border-bottom: 1px dashed rgb(135, 148, 157);">
+      <strong>{{ footer_note }}</strong>
+    </section>
+  </section>
+  <section style="letter-spacing: 0.544px; margin-right: auto; margin-left: auto; width: 5em;">
+    <img src="https://mmbiz.qpic.cn/mmbiz_gif/7QRTvkK2qC5Ae7TL0ribktKWDdib4Lv47xsog4G72hP4TiceEfibZ8KibSDBg2SRNvDzOa8abYBLdQQNRY3tkZMIrfg/640?wx_fmt=gif" style="display:block; border-radius:6px; box-shadow:none; width:134px; visibility:visible !important;" width="134px" />
+  </section>
+  <p><span><br/></span></p>
+  <section style="margin-bottom: 0px;"><section><section style="text-align: right;"><img src="https://mmbiz.qpic.cn/mmbiz_gif/qJIdjiclKxazia6FV2XxoCKfQ5poP1f5R9IQiarNZzpviaEsk3Eb9jeMia1Q4yQOE2dbUsmC7lhUtKTpKPYl7qpnvXw/640?wx_fmt=gif" style="width:259px;height:41px;" title="1567402674157587.gif" /></section></section></section>
+  <p style="margin-bottom: 0px;"><span><br/></span></p>
+  <section><span><br/></span></section>
+  <p style="display: none;"><mp-style-type></mp-style-type></p>
+</section>
+{% endif %}
